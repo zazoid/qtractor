@@ -426,7 +426,7 @@ protected:
 	void updateDefaultNrpnNames();
 
 	// Zoom factor constants.
-	enum { ZoomMin = 10, ZoomBase = 100, ZoomMax = 1000, ZoomStep = 10 };
+	enum { ZoomMin = 4, ZoomBase = 100, ZoomMax = 1000, ZoomStep = 4 };
 
 	// Zoom step evaluator.
 	int zoomStep() const;

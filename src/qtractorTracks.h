@@ -180,7 +180,13 @@ public:
 protected:
 
 	// Zoom factor constants.
-	enum { ZoomMin = 10, ZoomBase = 100, ZoomMax = 1000, ZoomStep = 10 };
+    // ...which I found inconvenient (because I work with a long rehearsal sessions)
+    // so I changed ZoomMin and also ZoomStep to my needs
+    // note: when you set even wider range, zoom behavior becomes even more non-linear
+    // which was a possible reason for a such awkward limits
+    // TODO: check the possibility to dynamically change step value
+    // according to the the current zoom value, in order to achieve linearity
+	enum { ZoomMin = 4, ZoomBase = 100, ZoomMax = 1000, ZoomStep = 4 };
 
 	// Zoom step evaluator.
 	int zoomStep() const;
