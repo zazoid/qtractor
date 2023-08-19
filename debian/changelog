@@ -1,3 +1,10 @@
+qtractor (0.9.34-77.1-zazoid) unstable; urgency=low
+
+  * just forked for fun
+
+ -- Alexander Gorodinski <testor@zazoid.com>  Thu, 19 Aug 2023 19:31:18 +0300
+
+
 qtractor (0.9.34-77.1) unstable; urgency=low
 
   * A Spring'23 release.
