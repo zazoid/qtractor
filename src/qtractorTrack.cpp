@@ -1495,9 +1495,7 @@ void qtractorTrack::process_export ( qtractorClip *pClip,
 	unsigned long iFrameStart, unsigned long iFrameEnd )
 {
 	// Track automation processing...
-	qtractorCurveList *pCurveList = curveList();
-	if (pCurveList && pCurveList->isProcess())
-		pCurveList->process(iFrameStart);
+	process_curve(iFrameStart);
 
 	// Audio-buffers needs some preparation...
 	const unsigned int nframes = iFrameEnd - iFrameStart;
@@ -2016,7 +2014,8 @@ bool qtractorTrack::saveElement (
 	pDocument->saveTextElement("solo",
 		qtractorDocument::textFromBool(qtractorTrack::isSolo()), &eState);
 	pDocument->saveTextElement("record",
-		qtractorDocument::textFromBool(qtractorTrack::isRecord()), &eState);
+		qtractorDocument::textFromBool(qtractorTrack::isRecord()
+			&& !qtractorTrack::isClipRecordEx()), &eState);
 	pDocument->saveTextElement("monitor",
 		qtractorDocument::textFromBool(qtractorTrack::isMonitor()), &eState);
 	pDocument->saveTextElement("gain",

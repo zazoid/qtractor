@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 3.15)
 
 project (qtractor
-  VERSION 0.9.35
+  VERSION 0.9.36
   DESCRIPTION "An Audio/MIDI multi-track sequencer"
   LANGUAGES C CXX)
 
@@ -433,13 +433,7 @@ endif ()
 
 # Check for VST3 SDK.
 if (CONFIG_VST3 AND NOT CONFIG_VST3SDK)
-  pkg_check_modules (VST3SDK vst3sdk>=3.6.14)
-  if (VST3SDK_FOUND)
-     set (CONFIG_VST3SDK ${VST3SDK_INCLUDE_DIRS})
-  else ()
-    message (WARNING "*** VST3 SDK not found.")
-    set (CONFIG_VST3 0)
-  endif ()
+  set (CONFIG_VST3SDK ${CMAKE_CURRENT_SOURCE_DIR}/src/vst3)
 endif ()
 
 if (CONFIG_VST3 OR CONFIG_LV2_UI_X11)
@@ -777,7 +771,7 @@ show_option ("  JACK Session support . . . . . . . . . . . . . . ." CONFIG_JACK_
 show_option ("  JACK Latency support . . . . . . . . . . . . . . ." CONFIG_JACK_LATENCY)
 show_option ("  JACK Metadata support  . . . . . . . . . . . . . ." CONFIG_JACK_METADATA)
 message     ("")
-show_option ("  Non Session Management (NSM) support . . . . . . ." CONFIG_NSM)
+show_option ("  Non/New Session Management (NSM) support . . . . ." CONFIG_NSM)
 message     ("")
 show_option ("  VeSTige header support . . . . . . . . . . . . . ." CONFIG_VESTIGE)
 show_option ("  Unique/Single instance support . . . . . . . . . ." CONFIG_XUNIQUE)

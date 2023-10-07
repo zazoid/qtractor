@@ -37,6 +37,7 @@ class qtractorScrollView;
 class qtractorRubberBand;
 
 class qtractorCommandList;
+class qtractorCommand;
 
 class qtractorMidiEditList;
 class qtractorMidiEditTime;
@@ -166,6 +167,13 @@ public:
 
 	qtractorMidiThumbView *thumbView() const;
 
+	// Check whether step-input is on.
+	bool isStepInputHead() const;
+
+	// Step-input positioning.
+	void setStepInputHead(unsigned long iStepInputHead, bool bSyncView = true);
+	int stepInputHeadX() const;
+
 	// Edit-head/tail accessors.
 	void setEditHead(unsigned long iEditHead, bool bSyncView = true);
 	int editHeadX() const;
@@ -187,7 +195,7 @@ public:
 	// Note autition while editing.
 	void setSendNotes(bool bSendNotes);
 	bool isSendNotes() const;
-	bool isSendNotesEx(bool bForce) const;
+	bool isSendNotesEx() const;
 
 	// Note names display.
 	void setNoteNames(bool bNoteNames);
@@ -358,7 +366,8 @@ public:
 		Randomize = 3,
 		Resize    = 4,
 		Rescale   = 5,
-		Timeshift = 6
+		Timeshift = 6,
+		Temporamp = 7
 	};
 
 	// Edit tools form page selector.
@@ -366,6 +375,9 @@ public:
 
 	// Command list accessor.
 	qtractorCommandList *commands() const;
+
+	// Command executioner...
+	bool execute(qtractorCommand *pCommand);
 
 	// Note name map accessor.
 	const QString noteName(unsigned char note) const;
@@ -407,7 +419,7 @@ public:
 public slots:
 
 	// Redirect note on/off;
-	void sendNote(int iNote, int iVelocity = 0);
+	void sendNote(int iNote, int iVelocity, bool bForce = false);
 
 	// Update instrument defined names for current clip/track.
 	void updateInstrumentNames();
@@ -564,7 +576,7 @@ signals:
 	void changeNotifySignal(qtractorMidiEditor *);
 
 	// Send note event signale.
-	void sendNoteSignal(int, int);
+	void sendNoteSignal(int, int, bool);
 
 private:
 
@@ -677,6 +689,9 @@ private:
 
 	// The local edit command list/queue.
 	qtractorCommandList *m_pCommands;
+
+	// Local step-input-hea positioning.
+	int  m_iStepInputHeadX;
 
 	// Local edit-head/tail positioning.
 	int  m_iEditHeadX;

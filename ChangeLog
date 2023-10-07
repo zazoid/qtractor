@@ -6,14 +6,49 @@ ChangeLog
 
 GIT HEAD
 
+- Introducing brand new MIDI clip tool: Tempo ramp. (EXPERIMENTAL)
+
+- Disable or better hide the Add Tracks option on the MIDI tracks
+  export dialog. (EXPERIMENTAL)
+
+- Fixed a yearlong bug in MIDI file import/export of tempo, time
+  and key signatures and markers, to severely wrong locations.
+  (SF ticket #287) (EXPERIMENTAL)
+
+- Enable Aux-Send inserts on output buses, but list possible target
+  buses only; audio output buses are now listed as possible targets
+  iif they follow or succeed the source one (in internal processing
+  order). (EXPERIMENTAL)
+  
+- Fixed MIDI tracks latency compensation, now working as expected.
+  (GH issue #411) (EXPERIMENTAL)
+
+- Show current/total plugins latency on the Track properties dialog,
+  (GH issue #410) (EXPERIMENTAL)
+
+- Fixed MIDI Step-input for non-zero offset clips. (EXPERIMENTAL)
+
+
+0.9.35  2023-09-14  An End-of-Summer'23 Release.
+
+- MIDI Step-input is now finally featured on the MIDI clip editor
+  (aka. piano-roll), provided Clip/Record is on and playback is not
+  rolling; current snap-to-beat applies; starts/resets to play-head;
+  Edit/Insert/Step to advance a single step/rest.
+
+- Notes keyed in the MIDI clip editor's virtual piano keyboard may now
+  be recorded, especially while "overdubbing".
+
+- The official VST3 plug-in SDK is now included in the source tree as
+  Git submodules.
+
 - Fixed a rounding error on current BBT information passed to plugins
-  and to JACK transport/timebase. (GH issue #406) (EXPERIMENTAL)   
+  and to JACK transport/timebase.
 
 - When on Track/Auto Deactivate mode, plugins now show a dull, dimmed
-  lit, green (fake-)LED when in auto-deactivated state. (EXPERIMENTAL)
+  lit, green (fake-)LED when in auto-deactivated state.
 
 - Attempt to actually (de)activate plugins once on (de)instantiation.
-  (GH issue #402) (EXPERIMENTAL)
 
 - Preppings to next development cycle (Qt >= 6.6)
 
@@ -50,8 +85,6 @@ GIT HEAD
 
 - Fixed the internal MIDI file player queue to the highest resolution
   possible (PPQN aka ticks-per-beat).
-
-- Prepping into the next development cycle (with Qt >= 6.5).</li>
 
 
 0.9.33  2023-03-27  An Early-Spring'23 Hotfix Release.
