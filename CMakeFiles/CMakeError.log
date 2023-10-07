@@ -1,0 +1,38 @@
+Determining if the include file aeffectx.h exists failed with the following output:
+Change Dir: /home/testor/soft/qtractor/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_88f4f/fast && gmake[2]: Entering directory '/home/testor/soft/qtractor/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_88f4f.dir/build.make CMakeFiles/cmTC_88f4f.dir/build
+gmake[3]: Entering directory '/home/testor/soft/qtractor/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88f4f.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g -O2 -ffile-prefix-map=/home/testor/soft/qtractor=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security  -o CMakeFiles/cmTC_88f4f.dir/CheckIncludeFile.c.o -c /home/testor/soft/qtractor/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/testor/soft/qtractor/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: aeffectx.h: No such file or directory
+    1 | #include <aeffectx.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+gmake[3]: *** [CMakeFiles/cmTC_88f4f.dir/build.make:78: CMakeFiles/cmTC_88f4f.dir/CheckIncludeFile.c.o] Error 1
+gmake[3]: Leaving directory '/home/testor/soft/qtractor/CMakeFiles/CMakeTmp'
+gmake[2]: *** [Makefile:127: cmTC_88f4f/fast] Error 2
+gmake[2]: Leaving directory '/home/testor/soft/qtractor/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file aeffectx.h exists failed with the following output:
+Change Dir: /home/testor/soft/qtractor/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2c0b1/fast && gmake[2]: Entering directory '/home/testor/soft/qtractor/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_2c0b1.dir/build.make CMakeFiles/cmTC_2c0b1.dir/build
+gmake[3]: Entering directory '/home/testor/soft/qtractor/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c0b1.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g -O2 -ffile-prefix-map=/home/testor/soft/qtractor=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security  -o CMakeFiles/cmTC_2c0b1.dir/CheckIncludeFile.c.o -c /home/testor/soft/qtractor/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/testor/soft/qtractor/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: aeffectx.h: No such file or directory
+    1 | #include <aeffectx.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+gmake[3]: *** [CMakeFiles/cmTC_2c0b1.dir/build.make:78: CMakeFiles/cmTC_2c0b1.dir/CheckIncludeFile.c.o] Error 1
+gmake[3]: Leaving directory '/home/testor/soft/qtractor/CMakeFiles/CMakeTmp'
+gmake[2]: *** [Makefile:127: cmTC_2c0b1/fast] Error 2
+gmake[2]: Leaving directory '/home/testor/soft/qtractor/CMakeFiles/CMakeTmp'
+
+
+

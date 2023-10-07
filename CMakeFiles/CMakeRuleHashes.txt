@@ -1,0 +1,14 @@
+# Hashes of file build rules.
+d6c31d3aaa112314c9f08fba3205993d src/CMakeFiles/qtractor_autogen
+8e2090bfa67762e84d8aa0b8b7639a6d src/CMakeFiles/qtractor_plugin_scan_autogen
+ce7aa4b46d0cb9f1efc29a7c68f39860 src/CMakeFiles/translations
+1ccaf9b87dce2396a06f813d4aa79ec2 src/qtractor_autogen/EWIEGA46WW/qrc_qtractor.cpp
+9ec5fca960a7f40700d446250bac8ff3 src/qtractor_cs.qm
+dd36b244910ff61ac1e1d4d6fea80b4b src/qtractor_de.qm
+c6510925207d772f121561d31ce0ff44 src/qtractor_es.qm
+a0b4d8b883f39f6aaa5f7859b1b12371 src/qtractor_fr.qm
+7b67fc702d82bda9d23d4e175359251e src/qtractor_it.qm
+5c08d522d0a8862761b6950050d1bd35 src/qtractor_ja.qm
+556b7f26e7001813cc3ddf2bd3283df0 src/qtractor_pt.qm
+79eaa11bd968d61a554f6f5ee674c48d src/qtractor_ru.qm
+d307531af9504b5e7a1822dda3e5eaf0 src/qtractor_uk.qm

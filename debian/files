@@ -1,0 +1,3 @@
+qtractor-dbgsym_0.9.34-77.2_amd64.ddeb contrib/debug optional automatic=yes
+qtractor_0.9.34-77.2_amd64.buildinfo contrib/sound extra
+qtractor_0.9.34-77.2_amd64.deb contrib/sound extra

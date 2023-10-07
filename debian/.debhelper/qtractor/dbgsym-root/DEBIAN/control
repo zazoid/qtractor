@@ -1,0 +1,13 @@
+Package: qtractor-dbgsym
+Package-Type: ddeb
+Source: qtractor
+Version: 0.9.34-77.2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Rui Nuno Capela <rncbc@rncbc.org>
+Installed-Size: 33685
+Depends: qtractor (= 0.9.34-77.2)
+Section: contrib/debug
+Priority: optional
+Description: debug symbols for qtractor
+Build-Ids: 2c158c4ec0364742983a8b8434d5c78790205435 f8f54d04a1be95ed252e74069e9076f5298ce6a0

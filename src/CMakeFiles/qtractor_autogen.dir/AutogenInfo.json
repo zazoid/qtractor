@@ -1,0 +1,1199 @@
+{
+	"BUILD_DIR" : "/home/testor/soft/qtractor/src/qtractor_autogen",
+	"CMAKE_BINARY_DIR" : "/home/testor/soft/qtractor",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/testor/soft/qtractor/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/testor/soft/qtractor/src",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/testor/soft/qtractor/src/CMakeLists.txt",
+		"/home/testor/soft/qtractor/src/config.h.cmake",
+		"/home/testor/soft/qtractor/src/qtractor.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/testor/soft/qtractor",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/testor/soft/qtractor/src/qtractor.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractor.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorAbout.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorAbout.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorActionControl.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorActionControl.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorAtomic.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorAtomic.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorAudioBuffer.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorAudioBuffer.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorAudioClip.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorAudioClip.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorAudioConnect.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorAudioConnect.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorAudioEngine.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorAudioEngine.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorAudioFile.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorAudioFile.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorAudioListView.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorAudioListView.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorAudioMadFile.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorAudioMadFile.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorAudioMeter.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorAudioMeter.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorAudioMonitor.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorAudioMonitor.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorAudioPeak.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorAudioPeak.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorAudioSndFile.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorAudioSndFile.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorAudioVorbisFile.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorAudioVorbisFile.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorBusForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorBusForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorClapPlugin.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorClapPlugin.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorClip.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorClip.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorClipCommand.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorClipCommand.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorClipForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorClipForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorClipSelect.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorClipSelect.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorComboBox.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorComboBox.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorCommand.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorCommand.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorConnect.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorConnect.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorConnectForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorConnectForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorConnections.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorConnections.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorCtlEvent.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorCtlEvent.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorCurve.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorCurve.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorCurveCommand.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorCurveCommand.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorCurveFile.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorCurveFile.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorCurveSelect.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorCurveSelect.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorDocument.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorDocument.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorDssiPlugin.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorDssiPlugin.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorEditRangeForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorEditRangeForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorEngine.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorEngine.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorEngineCommand.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorEngineCommand.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorExportForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorExportForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorFileList.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorFileList.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorFileListView.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorFileListView.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorFileSystem.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorFileSystem.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorFiles.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorFiles.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorInsertPlugin.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorInsertPlugin.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorInstrument.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorInstrument.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorInstrumentForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorInstrumentForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorInstrumentMenu.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorInstrumentMenu.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorLadspaPlugin.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorLadspaPlugin.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorList.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorList.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorLv2Gtk2Plugin.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorLv2Gtk2Plugin.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorLv2Plugin.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorLv2Plugin.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMainForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMainForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMessageBox.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMessageBox.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMessageList.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMessageList.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMessages.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMessages.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMeter.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMeter.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiBuffer.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiBuffer.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiClip.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiClip.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiConnect.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiConnect.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiControl.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiControl.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiControlCommand.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiControlCommand.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiControlForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiControlForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiControlObserver.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiControlObserver.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiControlObserverForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiControlObserverForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiControlTypeGroup.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiControlTypeGroup.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiCursor.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiCursor.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiEditCommand.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiEditCommand.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiEditEvent.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiEditEvent.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiEditList.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiEditList.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiEditSelect.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiEditSelect.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiEditTime.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiEditTime.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiEditView.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiEditView.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiEditor.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiEditor.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiEditorForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiEditorForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiEngine.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiEngine.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiEvent.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiEvent.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiEventList.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiEventList.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiFile.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiFile.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiFileTempo.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiFileTempo.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiListView.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiListView.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiManager.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiManager.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiMeter.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiMeter.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiMonitor.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiMonitor.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiRpn.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiRpn.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiSequence.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiSequence.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiSysex.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiSysex.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiSysexForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiSysexForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiThumbView.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiThumbView.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiTimer.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiTimer.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiToolsForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMidiToolsForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMixer.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMixer.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMmcEvent.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMmcEvent.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMonitor.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorMonitor.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorNsmClient.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorNsmClient.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorObserver.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorObserver.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorObserverWidget.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorObserverWidget.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorOptions.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorOptions.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorOptionsForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorOptionsForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorPaletteForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorPaletteForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorPasteRepeatForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorPasteRepeatForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorPlugin.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorPlugin.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorPluginCommand.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorPluginCommand.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorPluginFactory.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorPluginFactory.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorPluginForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorPluginForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorPluginListView.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorPluginListView.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorPluginSelectForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorPluginSelectForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorPropertyCommand.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorPropertyCommand.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorRingBuffer.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorRingBuffer.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorRubberBand.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorRubberBand.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorScrollView.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorScrollView.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorSession.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorSession.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorSessionCommand.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorSessionCommand.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorSessionCursor.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorSessionCursor.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorSessionForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorSessionForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorShortcutForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorShortcutForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorSpinBox.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorSpinBox.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorTakeRangeForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorTakeRangeForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorTempoAdjustForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorTempoAdjustForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorThumbView.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorThumbView.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorTimeScale.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorTimeScale.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorTimeScaleCommand.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorTimeScaleCommand.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorTimeScaleForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorTimeScaleForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorTimeStretcher.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorTimeStretcher.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorTrack.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorTrack.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorTrackButton.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorTrackButton.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorTrackCommand.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorTrackCommand.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorTrackForm.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorTrackForm.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorTrackList.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorTrackList.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorTrackTime.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorTrackTime.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorTrackView.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorTrackView.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorTracks.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorTracks.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorVst2Plugin.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorVst2Plugin.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorVst3Plugin.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorVst3Plugin.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorWsolaTimeStretcher.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorWsolaTimeStretcher.cpp",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorZipFile.h",
+			"MU",
+			"EWIEGA46WW/moc_qtractorZipFile.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/testor/soft/qtractor/src/qtractor_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/testor/soft/qtractor/src/qtractor_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_SVG_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/testor/soft/qtractor/src",
+		"/home/testor/soft/qtractor/src/vestige",
+		"/home/testor/soft/qtractor/src/lv2",
+		"/usr/include/gtk-2.0",
+		"/usr/lib/x86_64-linux-gnu/gtk-2.0/include",
+		"/usr/include/pango-1.0",
+		"/usr/include/atk-1.0",
+		"/usr/include/gdk-pixbuf-2.0",
+		"/usr/include/harfbuzz",
+		"/usr/include/libmount",
+		"/usr/include/blkid",
+		"/usr/include/fribidi",
+		"/usr/include/cairo",
+		"/usr/include/pixman-1",
+		"/usr/include/glib-2.0",
+		"/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+		"/usr/include/uuid",
+		"/usr/include/freetype2",
+		"/usr/include/libpng16",
+		"/usr/include/gtkmm-2.4",
+		"/usr/lib/x86_64-linux-gnu/gtkmm-2.4/include",
+		"/usr/include/atkmm-1.6",
+		"/usr/lib/x86_64-linux-gnu/atkmm-1.6/include",
+		"/usr/include/gtk-unix-print-2.0",
+		"/usr/include/gdkmm-2.4",
+		"/usr/lib/x86_64-linux-gnu/gdkmm-2.4/include",
+		"/usr/include/giomm-2.4",
+		"/usr/lib/x86_64-linux-gnu/giomm-2.4/include",
+		"/usr/include/pangomm-1.4",
+		"/usr/lib/x86_64-linux-gnu/pangomm-1.4/include",
+		"/usr/include/glibmm-2.4",
+		"/usr/lib/x86_64-linux-gnu/glibmm-2.4/include",
+		"/usr/include/cairomm-1.0",
+		"/usr/lib/x86_64-linux-gnu/cairomm-1.0/include",
+		"/usr/include/sigc++-2.0",
+		"/usr/lib/x86_64-linux-gnu/sigc++-2.0/include",
+		"/home/testor/soft/qtractor/src/clap/include",
+		"/usr/include/x86_64-linux-gnu/qt6/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt6",
+		"/usr/include/x86_64-linux-gnu/qt6/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt6/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt6/QtXml",
+		"/usr/include/x86_64-linux-gnu/qt6/QtSvg",
+		"/usr/include/opus",
+		"/usr/include/lilv-0",
+		"/usr/include/sratom-0",
+		"/usr/include/sord-0",
+		"/usr/include/serd-0",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include",
+		"/usr/include/c++/11",
+		"/usr/include/x86_64-linux-gnu/c++/11",
+		"/usr/include/c++/11/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/11/include",
+		"/usr/local/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/testor/soft/qtractor/src/qtractor_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/testor/soft/qtractor/src/CMakeFiles/qtractor_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt6/libexec/uic",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 2,
+	"SETTINGS_FILE" : "/home/testor/soft/qtractor/src/CMakeFiles/qtractor_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/testor/soft/qtractor/src/qtractor.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorActionControl.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorAudioBuffer.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorAudioClip.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorAudioConnect.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorAudioEngine.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorAudioFile.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorAudioListView.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorAudioMadFile.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorAudioMeter.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorAudioMonitor.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorAudioPeak.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorAudioSndFile.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorAudioVorbisFile.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorBusForm.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorClapPlugin.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorClip.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorClipCommand.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorClipForm.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorClipSelect.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorComboBox.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorCommand.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorConnect.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorConnectForm.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorConnections.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorCurve.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorCurveCommand.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorCurveFile.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorCurveSelect.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorDocument.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorDssiPlugin.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorEditRangeForm.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorEngine.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorEngineCommand.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorExportForm.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorFileList.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorFileListView.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorFileSystem.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorFiles.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorInsertPlugin.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorInstrument.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorInstrumentForm.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorInstrumentMenu.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorLadspaPlugin.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorLv2Gtk2Plugin.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorLv2Plugin.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorMainForm.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorMessageBox.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorMessageList.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorMessages.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorMeter.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorMidiClip.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorMidiConnect.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorMidiControl.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiControlCommand.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiControlForm.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiControlObserver.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiControlObserverForm.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiControlTypeGroup.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorMidiCursor.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiEditCommand.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiEditEvent.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorMidiEditList.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiEditSelect.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorMidiEditTime.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorMidiEditView.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorMidiEditor.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiEditorForm.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorMidiEngine.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiEventList.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorMidiFile.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiFileTempo.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorMidiListView.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorMidiManager.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorMidiMeter.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorMidiMonitor.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorMidiRpn.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorMidiSequence.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiSysexForm.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiThumbView.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorMidiTimer.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorMidiToolsForm.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorMixer.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorMmcEvent.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorNsmClient.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorObserver.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorObserverWidget.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorOptions.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorOptionsForm.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorPaletteForm.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorPasteRepeatForm.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorPlugin.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorPluginCommand.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorPluginFactory.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorPluginForm.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorPluginListView.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorPluginSelectForm.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorRubberBand.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorScrollView.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorSession.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorSessionCommand.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorSessionCursor.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorSessionForm.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorShortcutForm.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorSpinBox.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorTakeRangeForm.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorTempoAdjustForm.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorThumbView.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorTimeScale.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorTimeScaleCommand.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorTimeScaleForm.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/testor/soft/qtractor/src/qtractorTimeStretcher.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorTrack.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorTrackButton.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorTrackCommand.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorTrackForm.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorTrackList.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorTrackTime.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorTrackView.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorTracks.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorVst2Plugin.cpp", "MU", null ],
+		[ "/home/testor/soft/qtractor/src/qtractorVst3Plugin.cpp", "MU", null ],
+		[
+			"/home/testor/soft/qtractor/src/qtractorWsolaTimeStretcher.cpp",
+			"MU",
+			null
+		],
+		[ "/home/testor/soft/qtractor/src/qtractorZipFile.cpp", "MU", null ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

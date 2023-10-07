@@ -1,0 +1,17 @@
+/home/testor/soft/qtractor/CMakeFiles/edit_cache.dir
+/home/testor/soft/qtractor/CMakeFiles/rebuild_cache.dir
+/home/testor/soft/qtractor/CMakeFiles/list_install_components.dir
+/home/testor/soft/qtractor/CMakeFiles/install.dir
+/home/testor/soft/qtractor/CMakeFiles/install/local.dir
+/home/testor/soft/qtractor/CMakeFiles/install/strip.dir
+/home/testor/soft/qtractor/src/CMakeFiles/translations.dir
+/home/testor/soft/qtractor/src/CMakeFiles/qtractor.dir
+/home/testor/soft/qtractor/src/CMakeFiles/qtractor_plugin_scan.dir
+/home/testor/soft/qtractor/src/CMakeFiles/edit_cache.dir
+/home/testor/soft/qtractor/src/CMakeFiles/rebuild_cache.dir
+/home/testor/soft/qtractor/src/CMakeFiles/list_install_components.dir
+/home/testor/soft/qtractor/src/CMakeFiles/install.dir
+/home/testor/soft/qtractor/src/CMakeFiles/install/local.dir
+/home/testor/soft/qtractor/src/CMakeFiles/install/strip.dir
+/home/testor/soft/qtractor/src/CMakeFiles/qtractor_autogen.dir
+/home/testor/soft/qtractor/src/CMakeFiles/qtractor_plugin_scan_autogen.dir

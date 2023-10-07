@@ -1,0 +1,2 @@
+/home/testor/soft/qtractor/src/qtractor_autogen/EWIEGA46WW/moc_qtractorMidiEditorForm.cpp: /home/testor/soft/qtractor/src/qtractorMidiEditorForm.h \
+  /home/testor/soft/qtractor/src/qtractor_autogen/moc_predefs.h
